@@ -1,0 +1,116 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+
+}
+
+.FooterContainer {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+}
+
+
+
+.TravelContainer {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-left: 4rem;
+    padding-bottom: 6.5rem;
+    padding-top: 1.6rem;
+
+}
+
+.TravelContainer h1 {
+    transform: translate(-5%, 40%);
+}
+.TravelContainer div{
+    padding-left: 2rem;
+}
+
+.travelFooterText {
+    color: #2F2F2F;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin-top: 1.5rem;
+
+}
+
+.contactUsIcons {
+    display: flex;
+    color: #DF6951;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.CompanyContainer {
+    color: #2F2F2F;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+    width: 33%;
+    padding-top: 3rem;
+}
+
+.CompanyContainer h3 {
+    font-size: 1.3125rem;
+    font-weight: 700;
+}
+
+.CompanyContainer p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.DestinationsContainer {
+    color: #2F2F2F;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+    width: 33%;
+    padding-top: 3rem;
+    background-image: url('../../assets/img/Footer-img.png');
+}
+
+.DestinationsContainer h3 {
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.DestinationsContainer p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.CopyRight {
+    color: #2F2F2F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625rem;
+    letter-spacing: -0.0175rem;
+}

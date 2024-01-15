@@ -1,0 +1,198 @@
+nav {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 16rem; */
+    align-items: center;
+    padding: 2.3rem 2.3rem 1rem 1.3rem;
+    z-index: 4;
+}
+
+.logo {
+    padding-left: 1rem;
+    border: 1px soli white;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2rem;
+
+}
+
+.logo h1 {
+    /* top: 1rem;
+    left: 5rem; */
+    width: 7rem;
+    height: 1rem;
+    color: #FFF;
+    transform: translate(-25%, -50%);
+    text-transform: capitalize;
+}
+.logoIcon {
+    width: 4.90956rem;
+    height: 0.91763rem;
+    flex-shrink: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+nav button {
+    padding: 0.6rem 1.7rem;
+    flex-shrink: 0;
+    margin-right: 2rem;
+    background-color: #DF6951;
+    filter: drop-shadow(0px 20px 35px rgba(223, 105, 81, 0.15));
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.activeTab {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #DF6951;
+    text-decoration-thickness: 3px;
+}
+
+.notActiveTab:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #DF6951;
+    text-decoration-thickness: 3px;
+}
+
+.notActiveTab {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+
+.FiMenu {
+    right: 1rem;
+    position: absolute;
+   font-size: 3rem;
+    color: white;
+    display: none;
+}
+.toggle {
+    display: none;
+}
+
+.IoClose {
+    font-size: 2rem;
+    color: #DF6951;
+}
+
+.SideBarmenu {
+    display: none;
+    right: 0rem;
+    top: 5vh;
+    position: absolute;
+    width: 50%;
+    height: 95vh;
+    padding: 1.5rem 1.5rem;
+    background-color: #FFF;
+}
+.ActiveSideBarmenu {
+    display: block;
+    right: 0rem;
+    top: 5vh;
+    position: absolute;
+    width: 50%;
+    height: 95vh;
+    padding: 1.5rem 1.5rem;
+    background-color: #FFF;
+}
+.NavElementsBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ColumnNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 2.5rem;
+}
+
+.ColumnNavElement {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin-top: 2.5rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.NavBtnColumn {
+    max-width: fit-content;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.ColumnNavElement:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #DF6951;
+    text-decoration-thickness: 3px;}
+
+@media screen and (max-width: 480px) {
+    .NavBarElement {
+        display: none;
+    }
+
+    .NavBtn {
+        display: none;
+    }
+    .FiMenu {
+        display: block;
+    }
+    .toggle {
+        display: block;
+    }
+}

@@ -1,0 +1,37 @@
+.serviseCard {
+    max-width: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceImg {
+    max-width: 6rem;
+    height: 4rem;
+    margin-bottom: 1.4rem;
+}
+
+.ServiceName {
+    color: var(--text-heading-color, #1E1D4C);
+    max-width: 10rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ServiceDesc {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625rem;
+    max-width: 16rem;
+    height: 4rem;
+    flex-shrink: 0;
+}

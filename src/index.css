@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 992px) {
+  html {
+      font-size: 12px
+  }
+}
+
+@media screen and (max-width: 750px) {
+  html {
+      font-size: 10px
+  }
+}
+
+@media screen and (max-width: 620px) {
+  html {
+      font-size: 8px
+  }
+}

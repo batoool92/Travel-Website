@@ -1,0 +1,79 @@
+.DestinationContainer {
+    margin-top: 2rem;
+    padding: 1.25rem 1.25rem 1rem 1.25rem;
+    /* border: 2px solid black; */
+    max-width: 30%;
+ 
+    border-radius: 0.25rem;
+    background: #F5F3F3;
+}
+
+.DestinatioImg {
+    max-width: 100%;
+}
+.DestinatioImg img{
+    max-width: 100%;
+}
+
+.DestinationDateNumContainer {
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 0rem;
+    border-radius: 0.25rem 0.25rem 0rem 0rem;
+    background: #DF6951;
+    color: #F5F3F3;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    transform: translateY(-10%);
+}
+
+.DestinationName {
+    margin-top: 0.9rem;
+
+    color: #181E4B;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.DestinationDescription {
+    color: #181E4B;
+    font-family: Poppins;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.DestinationCostEval {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    color: #262626;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.DestinationEval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

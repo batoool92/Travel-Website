@@ -1,0 +1,72 @@
+.ExploreComp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 2; */
+    width: 50vw;
+    max-width: 50%;
+    background-size: cover;
+    /* height: 19.625rem; */
+    padding: 4.6rem 11.5rem;
+
+    /* background: 100%; */
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+.ExploreComp::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.Promotion {
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1125rem;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.ExploreTitle {
+    color: #FFF;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4rem;
+    z-index: 2;
+
+}
+
+.ViewPackagesExploreBtn {
+    width: 11.4375rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 0.25rem;
+    border: 1px solid #FFF;
+    text-align: center;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+    background: none;
+    color: #FFF;
+    margin-top: 1.8rem;
+    z-index: 2;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

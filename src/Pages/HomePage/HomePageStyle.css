@@ -1,0 +1,85 @@
+.ServicesSection {
+  max-width: 100%;
+  padding: 6rem 4rem 5.5rem 4rem;
+}
+
+.category {
+  color: #DF6951;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.servicesSectionTitle {
+  color: #1E1D4C;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.exploreSection {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 100%;
+}
+
+.TourPackagesSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  padding: 5rem 4rem;
+}
+
+.trendy {
+  color: #DF6951;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1125rem;
+  text-transform: uppercase;
+}
+
+.TrendingPackages {
+  color: #1E1D4C;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.44013rem;
+  margin-bottom: 1.5rem;
+}
+
+.TourPackagesCards {
+  max-width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 6rem;
+}
+
+.fontFamilyHome {
+  font-family: Poppins;
+  font-size: 2rem;
+}
